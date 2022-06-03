@@ -27,6 +27,7 @@ class App extends Component {
         {this.state.monsters.map((monster) => {
           return <h1>{monster.name}</h1>;
         })}
+        <h1>This is a header</h1>
       </div>
     );
   }
